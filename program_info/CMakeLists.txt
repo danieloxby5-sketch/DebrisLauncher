@@ -8,11 +8,13 @@ if(UNIX)
     endif()
 endif()
 
-set(Launcher_CommonName "PrismLauncher")
-set(Launcher_DisplayName "Prism Launcher")
-set(Launcher_AppID "org.prismlauncher.PrismLauncher")
-set(Launcher_Domain "prismlauncher.org")
-set(Launcher_Git "https://github.com/PrismLauncher/PrismLauncher")
+
+set(Launcher_CommonName "DebrisLauncher")
+set(Launcher_DisplayName "DebrisLauncher")
+set(Launcher_AppID "com.debrislauncher.DebrisLauncher")
+set(Launcher_Domain "debrislauncher.example")
+set(Launcher_Git "https://github.com/danieloxby5-sketch/DebrisLauncher")
+
 
 set(Launcher_Name "${Launcher_CommonName}" PARENT_SCOPE)
 set(Launcher_DisplayName "${Launcher_DisplayName}" PARENT_SCOPE)
